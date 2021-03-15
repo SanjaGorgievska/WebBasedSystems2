@@ -1,0 +1,2 @@
+decimals = data2010['year'].apply(lambda x: str(x).split('.')[0])
+data2010['year'] = decimals
